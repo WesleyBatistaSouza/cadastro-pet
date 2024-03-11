@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@media screen and (max-width: 780px) {
+        
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+}
+
+
+body {
+    background-color: #444;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 100vh;
+
+    list-style: none;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    max-width: 250px;
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+button {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.cadastro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cadastroBtn {
+text-align: center;
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 14px;
+color: #fff;
+background: linear-gradient(90deg, #d9f731 0%, #c500cc 100%);
+padding: 10px 30px;
+border: 2px solid #0066cc;
+box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+border-radius: 50px;
+transition: 1000ms;
+transform: translateY(0);
+display: flex;
+align-items: center;
+cursor: pointer;    
+width: 50%;
+}
+
+.cadastroBtn:hover{
+transition : 1000ms;
+padding: 10px 50px;
+transform: translateY(-0px);
+background: linear-gradient(90deg, #d9f731 0%, #c500cc 100%);
+color: #0066cc;
+border: 2px solid #0066cc;
+}
+
+.removeBtn {
+    background-color: #FF6347;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.removeBtn:hover {
+    background-color: #CD5C5C;
+}
+
+#salvarDados, .editBtn {
+    background-color: #FFD700;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#salvarDados:hover, .editBtn:hover {
+    background-color: #FFA500;
+}
+
+
+.pets {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    font-size: 14px;
+    margin: 10px;
+}
+
+section:last-child {
+    border-bottom: 3px solid #111;
+}
+
+.petContent {
+    background-color: blueviolet;
+}
+
+footer {
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+}

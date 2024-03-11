@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lar Pet Lar</title>
+    <!-- stlyle -->
+    <link rel="stylesheet" href="./assets/css/style.css">   
+</head>
+<body>
+    <!-- project -->
+    <main>
+        <div class="container">
+            <h2>Cadastre seu Pet</h2>
+            <form id="cadastroPet">
+                <div>
+                    <label for="nome">Nome do Pet:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div>
+                    <label for="text">Espécie do Pet:</label>
+                    <input type="text" id="especie" name="especie" required>
+                </div>
+                <div>
+                    <label for="number">Idade do Pet:</label>
+                    <input type="number" id="idade" name="idade" required>
+                </div>
+                <div>
+                    <label for="text">Sexo do Pet:</label>
+                    <input type="text" id="sexo" name="sexo" required>
+                </div>
+                <div>
+                    <label for="text">Raça do Pet:</label>
+                    <input type="text" id="raca" name="raca" required>
+                </div>
+                <div class="cadastro">
+                    
+                    <button class="cadastroBtn" type="submit">Cadastrar</button>
+                </div>
+            </form>
+    
+        </div>
+        <div class="pets">
+            <h2>Pets Cadastrados:</h2>
+            <ul id="petList"></ul>
+            <button id="salvarDados">Salvar Dados</button>
+        </div>
+    </main>
+    <footer>
+        Copyright &copy;Wesley Batista
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
