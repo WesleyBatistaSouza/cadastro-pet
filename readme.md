@@ -5,4 +5,4 @@
 ### Objetivo: diminuir o abandono de animais - site com o objetivo de cadastrar animais para que centros de adoções possam resgatar ou pessoas com vontade de ter um pet possa adotar!
 
 
-O Cadastramento serve para pessoas que já tem animal (animais) e que por motivos maiores desejam enviar os mesmos para a adoção.
+O Lar Pet Lar serve para pessoas que já tem animal (animais) e que por motivos maiores desejam enviar os mesmos para a adoção.
