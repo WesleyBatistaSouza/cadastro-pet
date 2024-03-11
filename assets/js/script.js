@@ -1,9 +1,6 @@
 const form = document.getElementById("cadastroPet");
 const petList = document.getElementById("petList");
 const saveBtn = document.getElementById("salvarDados");
-const clearList = document.getElementById("limparLista");
-
-
 class Pets {
     constructor(nome, especie, idade, sexo, raca) {
         this.nome = nome;
